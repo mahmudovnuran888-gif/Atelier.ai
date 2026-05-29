@@ -1,25 +1,18 @@
 {
-  "name": "atelier-ai",
+  "name": "forma-studio",
   "version": "1.0.0",
-  "description": "Remotion video project",
+  "private": true,
   "scripts": {
-    "start": "remotion studio",
-    "build": "remotion render",
-    "upgrade": "remotion upgrade"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@remotion/cli": "4.0.290",
-    "@remotion/transitions": "4.0.290",
-    "remotion": "4.0.290",
-    "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "gsap": "^3.12.5",
+    "lenis": "^1.1.14",
+    "three": "^0.167.1"
   },
   "devDependencies": {
-    "@types/react": "18.3.1",
-    "@types/react-dom": "18.3.1",
-    "typescript": "5.4.5"
-  },
-  "remotion": {
-    "entryPoint": "src/index.ts"
+    "vite": "^5.4.2"
   }
 }
