@@ -1,25 +1,20 @@
 {
-  "name": "atelier-ai",
+  "name": "nocturne-studio",
+  "private": true,
   "version": "1.0.0",
-  "description": "Remotion video project",
+  "type": "module",
+  "description": "NOCTURNE — independent creative studio. Dark editorial landing page with a Three.js 3D spiral image gallery hero.",
   "scripts": {
-    "start": "remotion studio",
-    "build": "remotion render",
-    "upgrade": "remotion upgrade"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@remotion/cli": "4.0.290",
-    "@remotion/transitions": "4.0.290",
-    "remotion": "4.0.290",
-    "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "gsap": "^3.15.0",
+    "lenis": "^1.3.23",
+    "three": "^0.169.0"
   },
   "devDependencies": {
-    "@types/react": "18.3.1",
-    "@types/react-dom": "18.3.1",
-    "typescript": "5.4.5"
-  },
-  "remotion": {
-    "entryPoint": "src/index.ts"
+    "vite": "^5.4.21"
   }
 }
